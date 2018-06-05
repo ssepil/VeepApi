@@ -1,0 +1,25 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "azure": {
+    "host": "sepil.documents.azure.com",
+    "port": 10255,
+    "url": "mongodb://sepil:WalCfdin2bXIts4DFw9If3DXIbvFrNNvXBtG7vPDuT5KcmCx0PdEoWQSYfVDkSnaPA0Rt7pqqdB0FX7PvwINlg==@sepil.documents.azure.com:10255/?ssl=true&replicaSet=globaldb",
+    "database": "azure",
+    "password": "WalCfdin2bXIts4DFw9If3DXIbvFrNNvXBtG7vPDuT5KcmCx0PdEoWQSYfVDkSnaPA0Rt7pqqdB0FX7PvwINlg==",
+    "name": "azure",
+    "user": "sepil",
+    "connector": "mongodb"
+  },
+  "azure2": {
+    "host": "https://sepil.documents.azure.com:10255/",
+    "name": "azure2",
+    "connector": "loopback-connector-cosmosdb",
+    "masterKey": "YWalCfdin2bXIts4DFw9If3DXIbvFrNNvXBtG7vPDuT5KcmCx0PdEoWQSYfVDkSnaPA0Rt7pqqdB0FX7PvwINlg",
+    "databaseName": "azure",
+    "collectionName": "*",
+    "enableCrossPartitionQueries": false
+  }
+}
