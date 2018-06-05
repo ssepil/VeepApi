@@ -1,6 +1,10 @@
 {
   "loopback-component-explorer": {
     "mountPath": "/explorer",
-    "generateOperationScopedModels": true
+    "generateOperationScopedModels": true,
+    "apiInfo": {
+      "title": "Veep Api",
+      "description": "Veep Azure Api Console"
+    }
   }
 }
